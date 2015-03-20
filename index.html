@@ -1,0 +1,926 @@
+	<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+	-->
+	<!DOCTYPE HTML>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<title>Ruddy Website Template | Home :: w3layouts</title>
+			<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="./js/jquery.min.js"></script>
+			 <!-- Custom Theme files -->
+			<link href="./css/style.css" rel='stylesheet' type='text/css' />
+	   		 <!-- Custom Theme files -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+			</script>
+			<!---- animated-css ---->
+			<link href="./css/animate.css" rel="stylesheet" type="text/css" media="all">
+			<script type="text/javascript" src="./js/jquery.corner.js"></script> 
+			<script src="./js/wow.min.js"></script>
+			<script>
+			 new WOW().init();
+			</script>
+			<!---- animated-css ---->
+			<!---- start-smoth-scrolling---->
+			<script type="text/javascript" src="./js/move-top.js"></script>
+			<script type="text/javascript" src="./js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+			</script>
+			 <!---- start-smoth-scrolling---->
+			<!----webfonts--->
+			<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+			<!---//webfonts--->
+			<!----start-top-nav-script---->
+			<script>
+				$(function() {
+					var pull 		= $('#pull');
+						menu 		= $('nav ul');
+						menuHeight	= menu.height();
+					$(pull).on('click', function(e) {
+						e.preventDefault();
+						menu.slideToggle();
+					});
+					$(window).resize(function(){
+		        		var w = $(window).width();
+		        		if(w > 320 && menu.is(':hidden')) {
+		        			menu.removeAttr('style');
+		        		}
+		    		});
+				});
+			</script>
+			<!----//End-top-nav-script---->
+			
+		</head>
+		<body>
+		<div id="home" class="header">
+					<div class="top-header bounceInDown" data-wow-delay="0.4s">
+						<div class="containter1">
+						<div class="logo">
+							<a href="#"><img class="zirui" src="./images/zirui2.png" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">关于</a></li>
+								<li><a href="#team" class="scroll">团队</a></li>
+								<li><a href="#port" class="scroll">项目</a></li>
+								<li><a href="#contact" class="scroll">联系我们</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="./images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<script src="./js/responsiveslides.min.js"></script>
+				<script>
+				// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+				    	$("#slider4").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: true,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				    	$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+				    	$('.events').append("<li>after event fired.</li>");
+					}
+				});
+			});
+				$(function () {
+					// Slideshow 4
+				    	$(".rslides2").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: true,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				    	$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+				    	$('.events').append("<li>after event fired.</li>");
+					}
+				});
+			});
+
+			</script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			
+
+			<div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="./images/topbg1.jpg" alt="">
+			        </li>
+			        <li>
+			          <img src="./images/topbg2.jpg" alt="">
+			        </li>
+			        <li>
+			          <img src="./images/topbg1.jpg" alt="">
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!---- banner-info ---->
+			<!---- top-grids ---->
+			<div class="top-grids text-center">
+				<div class="container">
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<a href="#about"><span class="icon1"> </span></a>
+							<h3><a href="#about">ABOUT</a></h3>
+							<label> </label>
+							<p>紫睿科技（ZERIOI）是一家专注企业信息化应用软件开发与移动平台应用开发,为企业提供全面服务的软件服务公司</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<a href="#team"><span class="icon2"> </span></a>
+							<h3><a href="#team">TEAM</a></h3>
+							<label> </label>
+							<p>我们是一支活跃的年轻优秀团队，在充满活力的氛围中孜孜不倦地为理想共同奋斗</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<a href="#port"><span class="icon3"> </span></a>
+							<h3><a href="#port">PROCESS</a></h3>
+							<label> </label>
+							<p>我们提供包括企业信息化应用软件开发，视觉交互设计，物联网系统集成，互联网应用开发，移动平台应用开发等服务</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<a href="#contact"><span class="icon4"> </span></a>
+							<h3><a href="#contact">CONTACT</a></h3>
+							<label> </label>
+							<p>紫睿的成功离不开优秀人才的不断加盟，我们愿为各种优秀人才提供广阔的舞台，选择加入紫睿，演绎精彩未来</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---- top-grids ---->
+			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>about</span><label>ZERIOIg</label></h3>
+					</div>
+				</div>
+				<!--- about-grids ---->
+				<div class="about-grids">
+					<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="about-grid-info">
+							<h4><a>Company Profile</a><br /><a>公司介绍</a></h4>
+							<p>ZERIOI（紫睿科技）是一家为企业提供全面服务的软件服务公司，专注企业信息化应用软件开发与移动平台应用开发。公司成员由曾就职于腾讯百度等互联网公司的高级工程师、交互设计师组成。我们很乐意为各类客户提供创造性的解决方案。 </p>
+							<h4></h4>
+						</div>
+						<div class="about-grid-pic">
+						<img src="./images/about-pic1.jpg" title="name" />
+						</div>
+					</div>
+					<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+						<div class="about-grid-pic" height=263px>
+						<img src="./images/about-pic2.jpg" title="name" height=263px/>
+						</div>
+						<div class="about-grid-info">
+							<h4><a>Corporate Culture</a><br /><a>企业文化</a></h4>
+							<p>品质 ------------ 以品质保障为原则，打造信赖产品</p>
+							<p>创新 ------------ 以持续迭代的方式，始终追求卓越</p>
+							<p>诚信 ------------ 以坚守承诺为准绳，建立诚信团队</p>
+							<p>责任 ------------ 以尽职尽责的态度，担当工作职责</p>
+							<h4></h4>
+						</div>
+					</div>
+					<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+						<div class="about-grid-info">
+							<h4><a>Business Concepts</a><br /><a>经营理念</a></h4>
+							<p>紫睿一直秉承一切以用户价值为依归的经营理念，关注并深刻理解用户需求，不断以卓越的产品和服务满足用户需求，一向信仰并注重互联网技术创新，以通过互联网服务提升人类生活品质为使命，面向未来，坚持自主创新，始终处于稳健、高速发展的状态。</p>
+							<h4></h4>
+						</div>
+						<div class="about-grid-pic">
+						<img src="./images/about-pic3.jpg" title="name" />
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ----> 
+			<!---- Team ---->
+
+			<div id="team" class="team">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>our amazing</span><label>team .</label></h3>
+					</div>
+				</div>
+				<!----sreen-gallery-cursual---->
+				<div class="sreen-gallery-cursual">
+					 <!-- requried-jsfiles-for owl -->
+					<link href="./css/owl.carousel.css" rel="stylesheet">
+					    <script src="./js/owl.carousel.js"></script>
+					        <script>
+					    $(document).ready(function() {
+					      $("#owl-demo").owlCarousel({
+					        items : 3,
+					        lazyLoad : true,
+					        autoPlay : true,
+					        navigation : true,
+					        navigationText :  false,
+					        pagination : false,
+					      });
+					    });
+					    </script>
+					 <!-- //requried-jsfiles-for owl -->
+					 <!-- start content_slider -->
+					
+				       <div id="owl-demo" class="owl-carousel text-center">
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member1.png" onmouseover="this.src='./images/1.png'"
+								onmouseout="this.src='./images/team-member1.png'"alt="">
+			                	<h5><span>Logan</span> </h5>
+			                	<label>Designer</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member2.png" onmouseover="this.src='./images/2.png'"
+								onmouseout="this.src='./images/team-member2.png'"alt="">
+			                	<h5><span>Apple</span> </h5>
+			                	<label>Designer</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member3.png" onmouseover="this.src='./images/3.png'"
+								onmouseout="this.src='./images/team-member3.png'"alt="">
+			                	<h5><span>Cyril</span> </h5>
+			                	<label>CEO</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member4.png" onmouseover="this.src='./images/4.png'"
+								onmouseout="this.src='./images/team-member4.png'"alt="">
+			                	<h5><span>JIALi</span> </h5>
+			                	<label>Designer</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member5.png" onmouseover="this.src='./images/5.png'"
+								onmouseout="this.src='./images/team-member5.png'"alt="">
+			                	<h5><span>Baymax</span> </h5>
+			                	<label>Designer</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member6.png" onmouseover="this.src='./images/6.png'"
+								onmouseout="this.src='./images/team-member6.png'"alt="">
+			                	<h5><span>Angelia </span> </h5>
+			                	<label>Designer</label>
+			                </div>
+			                 <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member7.png" onmouseover="this.src='./images/7.png'"
+								onmouseout="this.src='./images/team-member7.png'"alt="">
+			                	<h5><span> Jackman</span> </h5>
+			                	<label>Engineer</label>
+			                </div>
+			                 <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member8.png" onmouseover="this.src='./images/8.png'"
+								onmouseout="this.src='./images/team-member8.png'"alt="">
+			                	<h5><span>李祖坚</span> </h5>
+			                	<label>Engineer</label>
+			                </div>
+			                <div class="item wow zoomIn" data-wow-delay="0.3s">
+			                	<img class="lazyOwl" data-src="./images/team-member9.png" onmouseover="this.src='./images/9.png'"
+								onmouseout="this.src='./images/team-member9.png'"alt="">
+			                	<h5><span>邓小莹</span> </h5>
+			                	<label> Assistant</label>
+			                </div>
+		              </div>
+				<!--//sreen-gallery-cursual---->
+				</div>
+			</div>
+				
+			<!--- blog ---->
+			<div id="blog" class="blog">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Our</span><label>blog .</label></h3>
+					</div>
+				</div>
+				<!---- blog-grids ---->
+				<div class="blog-grids">
+					<div class="container"> 
+					<div class="blog-grids-left">
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="./images/b1.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a>Heading</a></h3>
+									<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a> <label class="b-icon1"> </label>24</a></li>
+												<li><a> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="./images/b2.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a>Heading</a></h3>
+									<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a> <label class="b-icon1"> </label>24</a></li>
+												<li><a> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+						<div class="clearfix"> </div>
+						<!---- ---->
+						<div class="blog-grid-left-big wow bounceIn" data-wow-delay="0.4s">
+							<div class="blog-grid-left-big-info">
+								<div class="blog-art-info">
+									<h3><a>Heading</a></h3>
+									<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a> <label class="b-icon1"> </label>24</a></li>
+												<li><a> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left-big-pic">
+								<div class="blog-art-pic">
+									<img src="./images/b4.jpg" title="name" />
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-grids-right wow bounceIn" data-wow-delay="0.4s" >
+						<div class="blog-grid-left blog-grid-right">
+								<div class="blog-art-pic">
+									<img src="./images/b3.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a>Heading</a></h3>
+									<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a> <label class="b-icon1"> </label>24</a></li>
+												<li><a><label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---- blog-grids ---->
+				</div>
+			</div>
+			<!--- blog ---->
+			<!--- portfolio ---->
+			<div id="port" class="portfolio">
+				<div class="head-section">
+					<div class="container">
+						<h3>portfolio .</h3>
+					</div>
+				</div>
+				<!--- Portfolio ---->
+			<div id="port" class="portfolio-box">
+				
+					<!---- start-portfolio-script---->
+					<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<script src="./js/jquery/jquery-1.11.1.min.js"></script>
+						<script>
+							$(document).ready(function(){
+							  $("#showdiv1").click(function(){
+							    $("#bg1").fadeIn(300);
+							    $("#show1").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg1").click(function(){
+							    $("#bg1").fadeOut(300);
+							    $("#show1").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv2").click(function(){
+							    $("#bg2").fadeIn(300);
+							    $("#show2").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg2").click(function(){
+							    $("#bg2").fadeOut(300);
+							    $("#show2").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv3").click(function(){
+							    $("#bg3").fadeIn(300);
+							    $("#show3").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg3").click(function(){
+							    $("#bg3").fadeOut(300);
+							    $("#show3").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv4").click(function(){
+							    $("#bg4").fadeIn(300);
+							    $("#show4").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg4").click(function(){
+							    $("#bg4").fadeOut(300);
+							    $("#show4").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv5").click(function(){
+							    $("#bg5").fadeIn(300);
+							    $("#show5").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg5").click(function(){
+							    $("#bg5").fadeOut(300);
+							    $("#show5").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv6").click(function(){
+							    $("#bg6").fadeIn(300);
+							    $("#show6").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg6").click(function(){
+							    $("#bg6").fadeOut(300);
+							    $("#show6").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv7").click(function(){
+							    $("#bg7").fadeIn(300);
+							    $("#show7").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg7").click(function(){
+							    $("#bg7").fadeOut(300);
+							    $("#show7").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv8").click(function(){
+							    $("#bg8").fadeIn(300);
+							    $("#show8").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg8").click(function(){
+							    $("#bg8").fadeOut(300);
+							    $("#show8").fadeOut(300);
+							  });
+							});
+						 	$(document).ready(function(){
+							  $("#showdiv9").click(function(){
+							    $("#bg9").fadeIn(300);
+							    $("#show9").fadeIn(300);
+							  });
+							});
+							$(document).ready(function(){
+							  $("#bg9").click(function(){
+							    $("#bg9").fadeOut(300);
+							    $("#show9").fadeOut(300);
+							  });
+							});
+						 
+					</script>
+					<div class="container">
+						<!----//End-portfolio-script---->
+						<ul id="filters" class="clearfix">
+							<li class="filtter-color1"><span class="filter active" data-filter="app card icon web">全部</span></li>
+							<li class="filtter-color2"><span class="filter" data-filter="app">企业信息化应用软件开发</span></li>
+							<li class="filtter-color3"><span class="filter" data-filter="card">视觉交互设计</span></li>
+							<li class="filtter-color4"><span class="filter" data-filter="icon">物联网系统集成</span></li>
+							<li class="filtter-color5"><span class="filter" data-filter="web">互联网&移动应用平台开发</span></li>
+						</ul>
+					</div>
+					<div id="bg1" ></div>
+					<div id="show1">
+						<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg2"></div>
+					<div id="show2">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001z.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002z.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003z.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg3"></div>
+					<div id="show3">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001x.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002x.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003x.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg4"></div>
+					<div id="show4">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/01w.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/02w.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003w.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg5"></div>
+					<div id="show5">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001r.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002r.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003r.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg6"></div>
+					<div id="show6">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001s.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002s.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003s.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg7"></div>
+					<div id="show7">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001k.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002k.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003k.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg8"></div>
+					<div id="show8">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001p.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002p.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003p.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+ 					<div id="bg9"></div>
+					<div id="show9">
+	 					<div  id="top" class="callbacks_container2">
+			    			<ul class="rslides2 callbacks" id="slider5">
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/001g.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/002g.jpg" />
+		        				</li>
+		        				<li class="lione">
+		        					<img class="tanchu" src="./images/003g.jpg" />
+		        				</li>
+		        			</ul>
+		        		</div>
+ 					</div>
+					<div id="portfoliolist">
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv1">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/001.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>灵机塔罗-事业爱情运势塔罗占卜</h4>
+						     			<p>◆当你在感情道路遇到挫折，请不要伤心 </p>
+						     			<p>◆当你感到前途迷惘，对生活感到迷惘，请不要失意</p>
+						     			<p>◆当你感到失去了坚持的动力，请不要放弃</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv2">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003z.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>智能插座-智慧家居家电通断控制</h4>
+						     			<p>一款与智能插座结合使用的app， 通过网络它能让用户不管身处何处何地，都能知晓家中电器的通断情况，远程关闭，开启，调节它们。此外，用户还可以轻松地创建并应用各种定义的家电使用模式。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>		
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv3">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003x.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>行车记录仪-手机行车记录应用软件</h4>
+						     			<p>◆简单易用，安全取证</p>
+						     			<p>◆界面简洁美观，终身绿色免费</p>
+						     			<p>◆广角最大，夜视最清，防抖最稳</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv4">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003w.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>维米彩贴-可通信的的二维码贴纸</h4>
+						     			<p>一款二维码贴纸，可以通过扫描贴纸上面的二维码上传下载图片，获得语音，视频，地理位置等信息。可以把贴纸贴在明信片或礼品上，还可以贴在资料笔记上，书写文字的同时记录精彩的照片与视频。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv5">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003r.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>日程管理-一体化事务办公助理</h4>
+						     			<p>这是一款能让事务集中管理的软件，它拥有完善的功能界面，人性化的任务委托和分拣能力，它实用，快速，能够帮你完成一天的任务安排，能够通过它实现个人事务完美处理。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv6">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003s.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>小小调酒配方-一款调酒教学的应用</h4>
+						     			<p>调酒是一种魔术师一样的手艺，不同颜色的酒混在一起，可以产生巨大的魔法反应，得到颜色纷呈，味道特别的酒品。你可以通过这款软件应用上面的配方学会每一款鸡尾酒。</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv7">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003k.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>单词弹词器－学习单词的工具</h4>
+						     			<p>◆卡通界面，游戏风格</p>
+						     			<p>◆精选四级词汇和例句，记录学习进度</p>
+										<p>◆关卡模式，每日提醒</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv8">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003p.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>智者的游戏-传播东巴文化</h4>
+						     			<p>一款以东巴文字为元素的小游戏，宣传东巴文化，让人们在娱乐的同时,可以关注到东巴文字,了解到这个活着的象形文字，传播古老的东巴文化，拯救古老“活化石”</p>
+						     			
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper" id="showdiv9">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="./images/003g.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>试衣间-一款让你享尽新衣的应用</h4>
+						     			<p>一款帮助你从商家的服装产品中挑选喜欢的衣服并对所选衣物进行搭配的应用。对于商家，它能帮助你更新产品信息和推广服装产品，让更多客户参与商家发起的试衣活动</p>
+						     			
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>
+			</div>
+				</div>
+			</div>
+			<div id="blog" class="blog">
+			</div>
+			<!---- work-with-us---->
+			<div class="work-with-us text-center">
+				<div class="container">
+					<h4>选择加入紫睿，演绎精彩未来</h4>
+					<p>发送简历，我们的HR会联系你</p>
+					<a class="catch-me wow shake" data-wow-delay="0.3s" href="#contact">联系我们</a>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<!--- portfolio ---->
+			<div id="blog" class="blog">
+			</div>
+			<!---- map ---->
+			<div id="contact" class="map">
+				<div class="map-location">
+					<img class="iframe" src="./images/ifram.png"> </img> 
+				</div>
+				<div class="contact-info text-center wow fadeInLeft" data-wow-delay="0.3s">
+					<h4><span>ZERIOI</span>联系我们</h4>
+					<p style="font-size:18px;"><span class="map-icon1"> </span>广州市番禺区广州大学城外环<br />西路100号广州国家集成电路基地216</p>
+					<p><span class="map-icon2"> </span>logan@zerioi.com</p>
+					<p><span class="map-icon3"> </span>17702036624</p>
+				</div>
+			</div>
+			<!---- map ---->
+			<div class="clearfix"> 
+			</div>
+			<!---- footer ---->
+			<div class="footer text-center">
+				<div class="container">
+					<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+						<ul>
+							<li><a href="#"><img  class="zirui" src="./images/zirui2.png" title="ruddy" /></a></li>
+						</ul>
+					</div>
+					
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---- footer --->
+		</div>
+	</body>
+</html>
+
