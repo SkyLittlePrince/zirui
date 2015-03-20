@@ -314,8 +314,8 @@ nav a#pull {
 	overflow: hidden;
 	text-decoration: none;
 	height: 61px;
-	width: 60px;
-	background: transparent url("../images/slider-icons.png") no-repeat left top;
+	width: 43px;
+	background: transparent url("../images/themes.png") no-repeat left top;
 	margin-top: -65px;
 }
 .callbacks_nav:active {
@@ -578,6 +578,7 @@ nav a#pull {
 }
 .about-grid-pic img{
 	width:100%;
+	height: 100%
 }
 .about-grid-info{
 	padding: 2.3em 2.5em;
@@ -1278,9 +1279,21 @@ a.contact-me:hover{
 	}
 }
 @media(max-width:1024px){
+	#aboutgrid{
+		height:100%;
+	}
 	.about-grid-info {
 		padding: 0.5em 1.34em;
+		height: 263px;
 	}
+	.about-grid-pic img {
+  		width: 100%;
+  		height: 263px;
+  	}
+  	.about-grid-info p.point {
+  		font-size: 0.875em;
+  		line-height: 1.0em;
+  	}
 	.col-md-4{
 		height:467px;
 	}
@@ -1611,6 +1624,9 @@ a.contact-me:hover{
 	}
 }
 @media(max-width:320px){
+	.about-grid{
+		height:100%;
+	}
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -1627,6 +1643,9 @@ a.contact-me:hover{
 	.callbacks_tabs {
   		top: 70%;
   		left:35%;
+  	}
+  	.about-grid-info p.point{
+  		font-size: 1em;
   	}
 	.banner-info h1 span {
 		font-size: 0.25em;
