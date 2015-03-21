@@ -161,6 +161,10 @@ nav a#pull {
 	  	text-align: left;
 	  	width: 100%;
   	}
+  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  		left: 15%;
+  		height: 55%;
+  	}
 }
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 768px) {
@@ -1296,7 +1300,7 @@ a.contact-me:hover{
 }
 
 @media(max-width:1024px){
-	#aboutgrid{
+	#about-grid{
 		height:100%;
 	}
 	.about-grid-info {
@@ -1324,7 +1328,6 @@ a.contact-me:hover{
 	}
 	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
 		left: 15%;
-  		height: 71%;
 	}
 	.container {
 		width:100%;
@@ -1422,6 +1425,7 @@ a.contact-me:hover{
 		left: 26%;
 	}
 }
+
 @media(max-width:640px){
 	.about-grid-info {
 		padding: 0.5em 1.34em;
@@ -1524,6 +1528,13 @@ a.contact-me:hover{
 		font-size: 1.2em;
 	}
 }
+@media(max-width:620px){
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  		left: 0;
+  		width: 100%;
+  		height: 62%;
+	}
+}
 @media(max-width:480px){
 	.about-grid-info {
 		padding: 0.5em 1.34em;
@@ -1598,7 +1609,7 @@ a.contact-me:hover{
   	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
   		left: 0;
   		width: 100%;
-  		height: 48%;
+  		height: 44%;
   	}
 	.caption p {
 		display:none;
@@ -1661,6 +1672,30 @@ a.contact-me:hover{
 		padding: 0.5em 0;
 	}
 }
+@media(max-width:450px){
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  	left: 0;
+  	width: 100%;
+  	height: 40%;
+	}
+}
+@media(max-width:375px){
+	.callbacks_tabs{
+		top:75%;
+		left:40%;
+	}
+	#portfoliolist .portfolio {
+  		width: 100%;
+  }
+  #show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  	left: 0;
+  	width: 100%;
+  	height: 31%;
+	}
+	nav ul {
+  	margin-top: -5%;
+  }
+ }
 @media(max-width:320px){
 	.about-grid{
 		height:100%;
@@ -1868,24 +1903,8 @@ a.contact-me:hover{
 		top: 25%;
   		width: 100%;
   		left:0px;
-  		height:30%;
+  		height:31%;
 	}
 }
-@media(max-width:375px){
-	.callbacks_tabs{
-		top:75%;
-		left:40%;
-	}
-	#portfoliolist .portfolio {
-  		width: 100%;
-  }
-  #show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
-  	left: 0;
-  	width: 100%;
-  	height: 31%;
-	}
-	nav ul {
-  	margin-top: -5%;
-  }
-}
+
 
