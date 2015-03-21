@@ -1283,8 +1283,18 @@ a.contact-me:hover{
 	.owl-item {
 		width: 300px;
   	}
+}
+@media(max-width:1118px){
+  	.blog-grids-left {
+  		float: left;
+  		width: 100%;
+  	}
+  	.blog-grids-right {
+  		width: 100%;
+  	}
 	
 }
+
 @media(max-width:1024px){
 	#aboutgrid{
 		height:100%;
