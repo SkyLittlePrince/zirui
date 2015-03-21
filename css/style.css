@@ -1279,6 +1279,12 @@ a.contact-me:hover{
 		padding: 0.2em 1em;
 	}
 }
+@media(max-width:1220px){
+	.owl-item {
+		width: 300px;
+  	}
+	
+}
 @media(max-width:1024px){
 	#aboutgrid{
 		height:100%;
@@ -1307,15 +1313,14 @@ a.contact-me:hover{
 		height:95%;
 	}
 	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
-		left:0;
-		width:100%;
-		height:80%;
+		left: 15%;
+  		height: 71%;
 	}
 	.container {
 		width:100%;
 	}
 	#portfoliolist .portfolio {
-		width: 100%;
+		width: 50%;
 	}
 	.blog-grids-left {
   		float: left;
@@ -1336,6 +1341,11 @@ a.contact-me:hover{
 		border: 8px solid #FFF;
 		padding: 0.2em 1em;
 	}
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  		left: 0;
+  		width: 100%;
+  		height: 80%;
+  	}
 	.banner-info h1 span {
 		font-size: 0.5em;
 	}
@@ -1413,6 +1423,14 @@ a.contact-me:hover{
 		border: 8px solid #FFF;
 		padding: 0.5em 1em;
 	}
+	.callbacks_tabs {
+		left:43%;
+	}
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  		left: 0;
+  		width: 100%;
+  		height: 64%;
+  	}
 	.banner-info h1 span {
 		font-size: 0.45em;
 	}
@@ -1466,7 +1484,7 @@ a.contact-me:hover{
 		font-size: 1em;
 	}
 	#portfoliolist .portfolio {
-		width: 50%;
+		width: 100%;
 	}
 	.caption p {
 		height: 50px;
@@ -1561,8 +1579,17 @@ a.contact-me:hover{
 		margin-bottom: 0.8em;
 	}
 	#portfoliolist .portfolio {
-		width: 50%;
+		width: 100%;
 	}
+	.callbacks_tabs {
+  		top: 80%;
+  		left: 40%;
+  	}
+  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  		left: 0;
+  		width: 100%;
+  		height: 48%;
+  	}
 	.caption p {
 		display:none;
 	}
