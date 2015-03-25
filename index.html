@@ -425,46 +425,49 @@
 					</div>
 				</div>
 				<!--- Portfolio ---->
-			<div id="port" class="portfolio-box">
-				
-					<!---- start-portfolio-script---->
-					<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
+			<!-- Script for gallery Here -->
+				<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
 					<script type="text/javascript">
-						$(function () {
-							var filterList = {
-								init: function () {
-								
-									// MixItUp plugin
-									// http://mixitup.io
-									$('#portfoliolist').mixitup({
-										targetSelector: '.portfolio',
-										filterSelector: '.filter',
-										effects: ['fade'],
-										easing: 'snap',
-										// call the hover effect
-										onMixEnd: filterList.hoverEffect()
-									});				
-								
-								},
-								hoverEffect: function () {
-									// Simple parallax effect
-									$('#portfoliolist .portfolio').hover(
-										function () {
-											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-										},
-										function () {
-											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-										}		
-									);				
-								
-								}
-					
-							};
-							// Run the show!
-							filterList.init();
-						});	
+					$(function () {
+						
+						var filterList = {
+						
+							init: function () {
+							
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							
+							},
+							
+							hoverEffect: function () {
+							
+								// Simple parallax effect
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							
+							}
+				
+						};
+						
+						// Run the show!
+						filterList.init();	
+					});	
 					</script>
 					<script src="./js/jquery/jquery-1.11.1.min.js"></script>
 						<script>
@@ -578,10 +581,11 @@
 							});
 						 
 					</script>
+					<div id="port" class="portfolio-box">
 					<div class="container">
 						<!----//End-portfolio-script---->
 						<ul id="filters" class="clearfix">
-							<li class="filtter-color1"><span class="filter active" data-filter="app card icon web">全部</span></li>
+							<li class="filtter-color1"><span class="filter" data-filter="app card icon web">全部</span></li>
 							<li class="filtter-color2"><span class="filter" data-filter="app">企业信息化应用软件开发</span></li>
 							<li class="filtter-color3"><span class="filter" data-filter="card">视觉交互设计</span></li>
 							<li class="filtter-color4"><span class="filter" data-filter="icon">物联网系统集成</span></li>
@@ -590,7 +594,7 @@
 					</div>
 					<div id="bg1" ></div>
 					<div id="show1">
-						<div  id="top" class="callbacks_container2">
+						<div  class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001.jpg" />
@@ -606,7 +610,7 @@
  					</div>
  					<div id="bg2"></div>
 					<div id="show2">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div   class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001z.jpg" />
@@ -622,7 +626,7 @@
  					</div>
  					<div id="bg3"></div>
 					<div id="show3">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001x.jpg" />
@@ -638,7 +642,7 @@
  					</div>
  					<div id="bg4"></div>
 					<div id="show4">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div  class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/01w.jpg" />
@@ -654,7 +658,7 @@
  					</div>
  					<div id="bg5"></div>
 					<div id="show5">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div  class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001r.jpg" />
@@ -670,7 +674,7 @@
  					</div>
  					<div id="bg6"></div>
 					<div id="show6">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div  class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001s.jpg" />
@@ -686,7 +690,7 @@
  					</div>
  					<div id="bg7"></div>
 					<div id="show7">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001k.jpg" />
@@ -702,7 +706,7 @@
  					</div>
  					<div id="bg8"></div>
 					<div id="show8">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div  class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001p.jpg" />
@@ -718,7 +722,7 @@
  					</div>
  					<div id="bg9"></div>
 					<div id="show9">
-	 					<div  id="top" class="callbacks_container2">
+	 					<div class="callbacks_container2">
 			    			<ul class="rslides2 callbacks" id="slider5">
 		        				<li class="lione">
 		        					<img class="tanchu" src="http://7xi6l3.com1.z0.glb.clouddn.com/001g.jpg" />
@@ -733,8 +737,8 @@
 		        		</div>
  					</div>
 					<div id="portfoliolist">
-					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv1">		
+					<div class="portfolio card mix_all"  data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv1">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/001.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -748,8 +752,8 @@
 						  	</div></a>
 		                </div>
 					</div>				
-					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv2">		
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv2">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003z.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -761,8 +765,8 @@
 						  	</div></a>
 		                </div>
 					</div>		
-					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv3">		
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv3">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003x.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -776,8 +780,8 @@
 						  	</div></a>
 		                </div>
 					</div>				
-					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv4">		
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv4">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md" class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003w.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -789,8 +793,8 @@
 						  	</div></a>
 		                </div>
 					</div>	
-					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv5">		
+					<div class="portfolio app mix_all"  data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv5">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md" class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003r.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -802,8 +806,8 @@
 						  	</div></a>
 		                </div>
 					</div>			
-					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv6">		
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv6">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003s.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -815,8 +819,8 @@
 						  	</div></a>
 		                </div>
 					</div>	
-					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv7">		
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv7">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003k.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -830,8 +834,8 @@
 						  	</div></a>
 		                </div>
 					</div>	
-					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv8">		
+					<div class="portfolio web mix_all"  data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv8">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003p.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -844,8 +848,8 @@
 						  	</div></a>
 		                </div>
 					</div>			
-					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper" id="showdiv9">		
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s" id="showdiv9">		
 							<a data-toggle="modal" data-target=".bs-example-modal-md"  class="b-link-stripe b-animate-go  thickbox">
 						     <img class="p-img" src="http://7xi6l3.com1.z0.glb.clouddn.com/003g.jpg" /><div class="b-wrapper">
 						     	<h2 class="b-animate b-from-left    b-delay03 ">
@@ -859,9 +863,10 @@
 		                </div>
 					</div>	
 					<div class="clearfix"> </div>	
+
 				</div>
 			</div>
-				</div>
+			</div>
 			</div>
 			<div id="blog" class="blog">
 			</div>
