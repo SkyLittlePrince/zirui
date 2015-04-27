@@ -45,11 +45,15 @@ body a {
 .top-nav:after {
     clear: both;
 }
+@font-face {
+    font-family: pictos;
+    src:url('../font/weiruanyahei.ttf');
+}
 .top-nav ul li a {
-	font-family: "微软雅黑";
+	font-family: pictos;
 	color: #AF48FE;
 	padding: 3px 20px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: 400;
 	text-align: center;
 	position: relative;
