@@ -821,7 +821,12 @@ a.catch-me:hover {
 	padding:0;
 }
 .footer-inner ul li {
-	display:inline-block;
+	list-style: none;
+}
+.footer-inner ul li.beian {
+	font-family: "微软雅黑";
+  	padding-top: 20px;
+  	font-size: 10px;
 }
 a.contact-me {
 	color: #fff;
