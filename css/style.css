@@ -529,7 +529,7 @@ nav a#pull {
   background: #FFF;
   padding: 1em 0 3em 0;
 }
-#bg1,#bg2,#bg3,#bg4,#bg5,#bg6,#bg7,#bg8,#bg9 { 
+#bg1,#bg2,#bg3,#bg4,#bg5,#bg6,#bg7,#bg8,#bg9,#bg10 { 
  	display: none;
  	position: fixed; 
  	top: 0%; 
@@ -542,7 +542,7 @@ nav a#pull {
 	opacity:.70; 
 	filter: alpha(opacity=70);
 }
-#show1,#show2,#show3,#show4,#show5,#show6,#show7,#show8,#show9 {
+#show1,#show2,#show3,#show4,#show5,#show6,#show7,#show8,#show9,#show10 {
 	display: none; 
  	position: fixed; 
  	top: 25%; left: 22%; 
@@ -924,7 +924,7 @@ a.contact-me:hover {
 		padding: 0.2em 1em;
 		height:95%;
 	}
-	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
 		left: 5%;
 	}
 	.container {
@@ -945,7 +945,7 @@ a.contact-me:hover {
 		border: 8px solid #FFF;
 		padding: 0.2em 1em;
 	}
-	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
   		left: 5%;
   		width: 80%;
   		height: 70%;
@@ -1064,7 +1064,7 @@ a.contact-me:hover {
 	#portfoliolist .portfolio {
 		width: 100%;
 	}
-	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
   		left: 5%;
   		width: 80%;
   		height: 55%;
@@ -1140,7 +1140,7 @@ a.contact-me:hover {
   		top: 80%;
   		left: 40%;
   	}
-  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
   		left: 0;
   		width: 100%;
   		height: 55%;
@@ -1207,7 +1207,7 @@ a.contact-me:hover {
 	}
 }
 @media(max-width:450px) {
-	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
   		left: 0;
   		width: 100%;
   		height: 45%;
@@ -1221,7 +1221,7 @@ a.contact-me:hover {
 	#portfoliolist .portfolio {
   		width: 100%;
   	}
-  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9 {
+  	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10 {
   		left: 0;
   		width: 100%;
   		height: 40%;
@@ -1395,7 +1395,7 @@ a.contact-me:hover {
 		margin-right: 0%;
 		margin-top: 2%;
 	}
-	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9{
+	#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8, #show9,#show10{
 		top: 25%;
   		width: 100%;
   		left:0px;
