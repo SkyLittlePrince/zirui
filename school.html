@@ -1,0 +1,339 @@
+<html>
+	<head>
+		<title>紫睿学堂</title>
+		<meta charset="utf-8" />
+		<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="./css/schoolStyle.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<script src="./js/jquery.min.js"> </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!--End-start-smoth-scrolling-->
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+		<!-- End-fonts -->
+		<script src="./js/responsiveslides.min.js"></script>
+ 		<script>
+    		// You can also use "$(window).load(function() {"
+    		$(function () {
+      		// Slideshow 1
+      		$("#slider1").responsiveSlides({
+         		auto: true,
+		 		nav: true,
+		 		speed: 500,
+		 		namespace: "callbacks2",
+      		});
+    	});
+  	</script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="slider2">
+			    <ul class="rslides2" id="slider1">
+			      <li>
+			      	<img src="./images/bg.jpg" alt="">
+			      	
+			      </li>
+			      <li><img src="./images/bg.jpg" alt="">
+			      	
+			      </li>
+			      <li><img src="./images/bg.jpg" alt="">
+			      	
+			      </li>
+			    </ul>
+	   		</div>	
+   		 	<div class="top-header">
+				<div class="container">
+					<div class="top-nav">
+						<ul>
+							<li><a href="#home" class="scroll">home<span class="home"> </span></a></li>
+							<li><a href="#about" class="scroll">about<span class="us-box"> </span></a></li>
+							<li><a href="#portfolio" class="scroll">process<span class="port-box"> </span></a></li>
+							<li><a href="#client" class="scroll">client<span class="tack-box"> </span></a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!--//header-->
+		<!-- content -->
+		<div class="content">
+			<!-- container -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 content-top-grid">					
+						<sub> </sub>
+						<h3>Build with love</h3>
+						<p>Fusce facilisis velit libero, nec
+							dignissim lacus sagittis non. <br>
+							Sed nec porta ante. Pellentesque <br>
+							habitant morbi tristique senectus et.
+						</p>					
+					</div>
+					<div class="col-md-3 content-top-grid">					
+						<span> </span>
+						<h3>Build with love</h3>
+						<p>Fusce facilisis velit libero, nec 
+							dignissim lacus sagittis non. <br>
+							Sed nec porta ante. Pellentesque <br>
+							habitant morbi tristique senectus et.
+						</p>					
+					</div>
+					<div class="col-md-3 content-top-grid">					
+						<small> </small>
+						<h3>Build with love</h3>
+						<p>Fusce facilisis velit libero, nec 
+							dignissim lacus sagittis non. <br>
+							Sed nec porta ante. Pellentesque <br>
+							habitant morbi tristique senectus et.
+						</p>					
+					</div>
+					<div class="col-md-3 content-top-grid">			
+						<big> </big>
+						<h3>Build with love</h3>
+						<p>Fusce facilisis velit libero, nec 
+							dignissim lacus sagittis non. <br>
+							Sed nec porta ante. Pellentesque <br>
+							habitant morbi tristique senectus et.
+						</p>					
+					</div>
+				</div>
+			</div>
+			<!--End-container -->
+		</div>
+		<!--End-content -->
+		<!-- content-about -->
+		<div id="about" class="content-about">
+			<!-- container -->
+			<div class="container">
+				<div class="content-about-text">
+					<h2>About <small>us</small></h2>
+				</div>
+				<div class="row">
+					<div class="col-md-6 content-about-grid-left">
+						<img src="./images/screen1.png">
+					</div>
+					<div class="col-md-6 content-about-grid-right">					
+						<p>Aliquam metus neque, bibendum sit amet porta at, consequat et 
+							enim. In ut turpis non ipsum rhoncus porttitor vel ac nunc. 
+							Maecenas interdum dignissim lorem quis auctor. Donec sit amet 
+							nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et 
+							enim rutrum adipiscing. Quisque tincidunt mattis sapien,
+							vel posuere.
+						</p>
+						<div class="learn">
+							<a href="#">Learn more</a>
+						</div>					
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- End-container -->
+		</div>
+		<!-- End-content-about -->
+		<!-- content-portfolio -->
+		<!-- container -->
+		<div class="container">			
+		 	<div id="portfolio" class="portfolio">
+			 	<div class="port-text">
+					<h2>Our <small>portfolio</small></h2>
+				</div>
+				<div  class="section" id="section-3">
+		      	<ul id="filters" class="clearfix wow bounceIn" data-wow-delay="0.4s">
+					<li><span class="filter active" data-filter="app card icon logo fun">ALL</span></li>
+					<li><span class="filter" data-filter="app">WEB</span></li>
+					<li><span class="filter" data-filter="card">APPS</span></li>			
+					<li><span class="filter" data-filter="fun">ICON</span></li>
+		        </ul>
+		     	<div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go main_img thickbox play-icon popup-with-zoom-anim">
+							<img src="./images/t1.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim main_img">
+							<img src="./images/t2.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim main_img">
+							<img src="./images/t3.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim main_img">
+							<img src="./images/t4.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+					</div>	
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim main_img">
+							<img src="./images/t5.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+					</div>			
+					<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim main_img">
+							<img src="./images/t6.jpg" class="img-responsive" alt=""/></a>
+							<p>Neque Porro Quisquam</p><h3>apps, icons, ui</h3>
+						</div>
+				    </div>				  
+			   		<div class="clearfix"></div>	
+			   		<div class="watchmore">
+						<a href="#">Watch more</a>
+					</div>
+		  		</div>
+			</div>
+		</div> 
+		<!-- Script for gallery Here-->
+		<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				var filterList = {
+				init: function () {
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			},
+			hoverEffect: function () {
+			// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');					
+					}		
+				);				
+			}
+		};
+		// Run the show!
+		filterList.init();
+		});	
+		</script>
+		<!--Gallery Script Ends-->	
+		</div>
+		<!-- container -->
+		<div class="clients" id="clients">
+			<div class="container">
+				<h3>Our Clients Says</h3>
+				<div class="client-section">
+					<div class="col-md-12 client-1">
+				 		<div class="col-md-6 client-gride1">
+				 			<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+				 			<div class ="grid-text">
+				 				<div class ="grid-img">
+				 					<img src="./images/c1.png" />
+				 				</div>
+				 				<div class ="grid-content">
+					 				<h4>Joe Doe</h4>
+					 				<span>Creative Deirector at Gmoogle.com</span>
+				 				</div>
+				 				<div class="clearfix"> </div>
+				 			</div>
+				 			<span class="arrow-one"> </span>
+						</div>
+						<div class="col-md-6 client-gride2">
+							<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+				 			<div class ="grid-text">
+				 				<div class ="grid-img">
+				 					<img src="./images/c2.png" />
+				 				</div>
+				 				<div class ="grid-content">
+					 				<h4>Joe Doe</h4>
+					 					<span>Creative Deirector at Gmoogle.com</span>
+				 				</div>
+				 				<div class="clearfix"> </div>
+				 			</div>
+				 			<span class="arrow-one"> </span>
+				 		</div>
+						<div class="col-md-12 client-2">
+							<div class="col-md-6 client-gride3">
+								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, fringilla vel, aliquet necvulputate eget,fringilla vel, aliquet nec arcu. In enim justo,. Cras dapibus. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+				 				<div class ="grid-text">
+				 					<div class ="grid-img">
+				 						<img src="./images/c2.png" />
+				 					</div>
+				 					<div class ="grid-content">
+					 					<h4>Joe Doe</h4>
+					 					<span>Creative Deirector at Gmoogle.com</span>
+				 					</div>
+				 					<div class="clearfix"> </div>
+				 				</div>
+				 				<span class="arrow-one"> </span>
+							</div>
+							<div class="col-md-6 client-gride4 col-md-four">
+								<p>Nulla consequat massa quis enim. Donec pede justo, arcu. venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+					 			<div class ="grid-text">
+					 				<div class ="grid-img">
+					 					<img src="./images/c1.png" />
+					 				</div>
+					 				<div class ="grid-content">
+						 				<h4>Joe Doe</h4>
+						 					<span>Creative Deirector at Gmoogle.com</span>
+					 				</div>
+					 				<div class="clearfix"> </div>
+					 			</div>
+					 			<span class="arrow-one"> </span>
+							</div>	
+					 	</div>
+					 	<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End-content-portfolio -->
+		<!-- content-Get-in-touch -->
+		<div id="contact" id="arrow" class="content-Get-in-touch">
+			<div class="content-portfolio">
+				<a href="#"><img src="./images/ftr.png"></a>
+				<p>Template by <a href="http://www.w3layouts.com">W3layouts</a></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- End-content-Get-in-touch -->
+	</body>
+</html>
